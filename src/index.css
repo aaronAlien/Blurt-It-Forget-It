@@ -1,13 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&family=Outfit:wght@100..900&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: "Outfit", "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #6d6d6d;
+  background-image: url("/public/assets/images/background_5.png");
+  background-position: top center;
+  background-size: 101%;
+  background-repeat: no-repeat;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+/*
+.App h1:before {
+  content: '💭';
+  margin-right: 0.5em;
+}*/
+
+.Thought .remove-button:hover,
+.AddThoughtForm .add-button:hover {
+  color: #fff;
+  background-color: #000;
+}
+.AddThoughtForm .add-button {
+  padding: 0.75em;
+  margin: 0.75em;
 }

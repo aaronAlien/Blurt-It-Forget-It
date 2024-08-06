@@ -1,4 +1,4 @@
-# Burt it. Forget It.
+# Blurt it. Forget It.
 
 ### _Let out your thoughts and frustrations and watch them disappear._
 

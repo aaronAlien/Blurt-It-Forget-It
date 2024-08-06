@@ -25,7 +25,7 @@ export function AddThoughtForm(props) {
   };
 
   return (
-    <form className='AddThoughtForm flex flex-wrap p-4' onSubmit={handleSubmit}>
+    <form className='AddThoughtForm flex-col p-4' onSubmit={handleSubmit}>
       <input
         className='box-border p-3 border-s-black rounded flex-1 mr-2 focus:outline-none'
         type='text'
@@ -34,7 +34,7 @@ export function AddThoughtForm(props) {
         value={text}
         onChange={handleTextChange}
       />
-      <input type='submit' value='Add' className='add-button box-border p-3 cursor-pointer rounded-md ring-2 ring-gray-700 ring-opacity-40 shadow-lg' />
+      <input type='submit' value='Add' className='add-button box-border p-3 cursor-pointer rounded-md ring-2 ring-gray-700 ring-opacity-40 shadow-lg sm:w-auto' />
     </form>
   );
 }

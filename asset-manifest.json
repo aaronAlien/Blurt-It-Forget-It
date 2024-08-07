@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Blurt-It-Forget-It/static/css/main.0bde8fa1.css",
-    "main.js": "/Blurt-It-Forget-It/static/js/main.bb687cca.js",
+    "main.css": "/Blurt-It-Forget-It/static/css/main.60b1f0c7.css",
+    "main.js": "/Blurt-It-Forget-It/static/js/main.17a554d9.js",
     "static/js/453.3fac5b4c.chunk.js": "/Blurt-It-Forget-It/static/js/453.3fac5b4c.chunk.js",
     "static/media/background_5.png": "/Blurt-It-Forget-It/static/media/background_5.eb7b34b4240e3684f26d.png",
     "index.html": "/Blurt-It-Forget-It/index.html",
-    "main.0bde8fa1.css.map": "/Blurt-It-Forget-It/static/css/main.0bde8fa1.css.map",
-    "main.bb687cca.js.map": "/Blurt-It-Forget-It/static/js/main.bb687cca.js.map",
+    "main.60b1f0c7.css.map": "/Blurt-It-Forget-It/static/css/main.60b1f0c7.css.map",
+    "main.17a554d9.js.map": "/Blurt-It-Forget-It/static/js/main.17a554d9.js.map",
     "453.3fac5b4c.chunk.js.map": "/Blurt-It-Forget-It/static/js/453.3fac5b4c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0bde8fa1.css",
-    "static/js/main.bb687cca.js"
+    "static/css/main.60b1f0c7.css",
+    "static/js/main.17a554d9.js"
   ]
 }
